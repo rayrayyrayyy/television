@@ -3,7 +3,8 @@
 # create a Python Code for creating the Class named TV and a Test Driver program named TestTV that will create two objects from Class TV
 # create class named TV
 class TV:
-    def __init__(self, channel, volume, power): 
+
+    def __init__(self, channel, volume, power = "OFF"): 
         # create instance variables
         self.channel = channel
         self.volume = volume
@@ -18,5 +19,11 @@ class TV:
     # Tv volume
 
     # Tv power ON/OFf
+    def open_tv(self):
+        if self.power == "ON":
+            print("TV is already ON.")
+            else:
+        self.power = "ON"
+            print("TV is opening.")
 
 
