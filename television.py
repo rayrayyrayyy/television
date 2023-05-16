@@ -14,7 +14,7 @@ class TV:
     # Tv channel
     def tv_channel(self):
         self.channel("Enter a channel: ")
-	    print("Channel was added.")
+        print("Channel was added.")
 
     # Tv volume
 
@@ -22,8 +22,15 @@ class TV:
     def open_tv(self):
         if self.power == "ON":
             print("TV is already ON.")
-            else:
-        self.power = "ON"
+        else:
+            self.power = "ON"
             print("TV is opening.")
+        
+    def close_tv(self):
+        if self.power == "OFF":
+            print("TV is already OFF.")
+        else:
+            self.power = "OFF"
+            print("TV is closing.")
 
 
