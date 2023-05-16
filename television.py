@@ -8,9 +8,6 @@ class TV:
         self.channel = channel
         self.volume = volume
         self.power = power
-        
-# define functions for tv
-# create test driver program
-# call methods
-# display output
-# end program
+
+    # define functions for tv
+
