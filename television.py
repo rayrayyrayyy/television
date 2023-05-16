@@ -5,6 +5,9 @@
 class TV:
     def __init__(self, channel, volume, power): 
         # create instance variables
+        self.channel = channel
+        self.volume = volume
+        self.power = power
         
 # define functions for tv
 # create test driver program
