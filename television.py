@@ -10,4 +10,13 @@ class TV:
         self.power = power
 
     # define functions for tv
+    # Tv channel
+    def tv_channel(self):
+        self.channel("Enter a channel: ")
+	    print("Channel was added.")
+
+    # Tv volume
+
+    # Tv power ON/OFf
+
 
