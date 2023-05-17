@@ -13,17 +13,24 @@ class TV:
     # define functions for tv
     # Tv channel
     def tv_channel(self):
-        self.channel += 1
-        print("Channel was added.")
         return self.channel
+    
+    def set_channel(self, channel):
+        self.channel = channel
+
+    def channel_uo(self):
+        self.channel += 1
+
+    def channel_down(self):
+        self.channel -= 1 
 
     # Tv volume
-    def volume_up(self) -> None:
+    def volume_up(self):
         self.volume += 1
         '''output message to terminal'''
         print("volume increase")
 
-    def volume_down(self) -> None:
+    def volume_down(self):
         self.volume -= 1
         '''output message to terminal'''
         print("volume decrease")
@@ -43,4 +50,3 @@ class TV:
         else:
             self.power = False
             print("TV is closing.")
-
