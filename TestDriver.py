@@ -7,10 +7,10 @@ from tkinter import *
 root = Tk()
 root.minsize(300, 300)
 
-channel = Button(root, text = "+", command = TV.tv_channel)
-channel.pack()
-
 # volume
+volume_down = Button(root, text = "-", command = TV.volume_down)
+volume_down.pack()
+
 volume = Label(root, text = "Volume")
 volume.pack()
 

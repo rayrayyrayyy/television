@@ -20,6 +20,10 @@ class TV:
     def volume_up(self) -> None:
         '''output message to terminal'''
         print("volume increase")
+
+    def volume_down(self) -> None:
+        '''output message to terminal'''
+        print("volume decrease")
         
 
     # Tv power ON/OFf
