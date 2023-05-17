@@ -6,6 +6,8 @@ def television_1():
     channel = int(input("TV 1's channel is: "))
     tv_1 = TV()
     tv_1.set_channel(channel)
+    tv_1.set_volume(15)
+    
 
 # define function for tv 2
 def television_2():
