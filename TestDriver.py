@@ -20,6 +20,8 @@ def television_2():
     tv_2.open_tv()
     tv_2.set_channel(channel)
     tv_2.set_volume(volume)
+    output_tv2 = "tv2's channel is " + str(tv_2.tv_channel()) + " and volume level is " + str(tv_2.tv_volume())
+    final_tv2.config(text = output_tv2)
     
 
 # import module
@@ -31,6 +33,9 @@ main.config(bg = "brown")
 
 final_tv1 = Label(main, text='TV 1')
 final_tv1.place(x=10, y=10)
+
+final_tv2 = Label(main, text='TV 2')
+final_tv2.place(x=10, y=30)
 
 # call functions
 television_1()
