@@ -17,6 +17,10 @@ class TV:
         print("Channel was added.")
 
     # Tv volume
+    def volume_up(self):
+        '''output message to terminal'''
+        print("volume increase")
+        
 
     # Tv power ON/OFf
     def open_tv(self):
@@ -32,5 +36,3 @@ class TV:
         else:
             self.power = "OFF"
             print("TV is closing.")
-
-
