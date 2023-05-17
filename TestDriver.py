@@ -29,13 +29,13 @@ from tkinter import *
 main = Tk()
 main.title("Test Driver")
 main.geometry("500x200+800+350")
-main.config(bg = "brown")
+main.config(bg = "purple")
 
-final_tv1 = Label(main, text='TV 1')
-final_tv1.place(x=10, y=10)
+final_tv1 = Label(main, text='TV 1', bg = "purple", fg = "white", font = ('Times', 20), justify = CENTER)
+final_tv1.place(x=10, y=50)
 
-final_tv2 = Label(main, text='TV 2')
-final_tv2.place(x=10, y=30)
+final_tv2 = Label(main, text='TV 2', bg = "purple", fg = "white", font = ('Times', 20), justify = CENTER)
+final_tv2.place(x=10, y=90)
 
 # call functions
 television_1()
