@@ -11,6 +11,15 @@ class TV:
         self.power = False
 
     # define functions for tv
+    # Tv power ON/OFf
+    def open_tv(self):
+        self.power = True
+        print("TV is already ON.")
+        
+    def close_tv(self):
+        self.power = False
+        print("TV is OFF.")
+
     # Tv channel
     def tv_channel(self):
         return self.channel
@@ -28,18 +37,3 @@ class TV:
         self.volume = volume
         '''output message to terminal'''
         print("volume set")
-        
-    # Tv power ON/OFf
-    def open_tv(self):
-        if self.power == True:
-            print("TV is already ON.")
-        else:
-            self.power = True
-            print("TV is opening.")
-        
-    def close_tv(self):
-        if self.power == False:
-            print("TV is already OFF.")
-        else:
-            self.power = False
-            print("TV is closing.")
