@@ -26,4 +26,8 @@ main.maxsize(400, 400)
 main.geometry("300x200+800+350")
 main.config(bg = "brown")
 
+# call functions
+television_1()
+television_2()
+
 mainloop() # end program

@@ -32,7 +32,7 @@ class TV:
     def tv_volume(self):
         return self.volume
     
-    def set_volum(self, volume):
+    def set_volume(self, volume):
         self.volume = volume
 
     def volume_up(self):
