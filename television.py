@@ -28,9 +28,9 @@ class TV:
         if 1 <= channel <= 120:
             self.channel = channel
             '''output message to terminal'''
-            print("channel changed")
+            print("\nchannel changed")
         else:
-            print("This channel is not available under your current plan.")
+            print("\nThis channel is not available under your current plan.")
 
     # Tv volume
     def tv_volume(self):

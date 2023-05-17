@@ -12,7 +12,7 @@ def main():
     output_tv1 = "tv1's channel is " + str(tv_1.tv_channel()) + " and volume level is " + str(tv_1.tv_volume())
     final_tv1.config(text = output_tv1)
     
-    channel = int(input("TV 2's channel is: "))
+    channel = int(input("\nTV 2's channel is: "))
     volume = int(input("TV 2's volume is: "))
     tv_2 = TV()
     tv_2.open_tv()
