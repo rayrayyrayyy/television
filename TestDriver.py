@@ -3,7 +3,9 @@
 from Television import TV
 # define function for tv 1
 def television_1():
+    channel = int(input("TV 1's channel is: "))
     tv_1 = TV()
+    tv_1.set_channel(channel)
 
 # define function for tv 2
 def television_2():
