@@ -34,6 +34,9 @@ class TV:
         return self.volume
     
     def set_volume(self, volume):
-        self.volume = volume
-        '''output message to terminal'''
-        print("volume set")
+        if 1 <= volume <= 7:
+            self.volume = volume
+            '''output message to terminal'''
+            print("volume set")
+        else:
+            print("INVALID VOLUME NUMBER")
