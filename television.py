@@ -19,10 +19,12 @@ class TV:
 
     # Tv volume
     def volume_up(self) -> None:
+        self.volume += 1
         '''output message to terminal'''
         print("volume increase")
 
     def volume_down(self) -> None:
+        self.volume -= 1
         '''output message to terminal'''
         print("volume decrease")
         
