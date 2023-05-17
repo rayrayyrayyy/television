@@ -2,6 +2,9 @@
 
 # import modules and class
 from Television import TV
+tv_1 = TV()
+tv_2 = TV()
+
 from tkinter import * 
 
 root = Tk()

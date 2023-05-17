@@ -13,6 +13,7 @@ class TV:
     # define functions for tv
     # Tv channel
     def tv_channel(self):
+        self.channel += 1
         print("Channel was added.")
         return self.channel
 
