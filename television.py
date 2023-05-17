@@ -25,9 +25,12 @@ class TV:
         return self.channel
     
     def set_channel(self, channel):
-        self.channel = channel
-        '''output message to terminal'''
-        print("channel changed")
+        if 1 <= channel <= 120:
+            self.channel = channel
+            '''output message to terminal'''
+            print("channel changed")
+        else:
+            print("This channel is not available under your current plan.")
 
     # Tv volume
     def tv_volume(self):
