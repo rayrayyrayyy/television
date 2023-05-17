@@ -18,13 +18,23 @@ class TV:
     def set_channel(self, channel):
         self.channel = channel
 
-    def channel_uo(self):
+    def channel_up(self):
         self.channel += 1
+        '''output message to terminal'''
+        print("channel changed")
 
     def channel_down(self):
         self.channel -= 1 
+        '''output message to terminal'''
+        print("channel changed")
 
     # Tv volume
+    def tv_volume(self):
+        return self.volume
+    
+    def set_volum(self, volume):
+        self.volume = volume
+
     def volume_up(self):
         self.volume += 1
         '''output message to terminal'''
@@ -35,7 +45,6 @@ class TV:
         '''output message to terminal'''
         print("volume decrease")
         
-
     # Tv power ON/OFf
     def open_tv(self):
         if self.power == True:
