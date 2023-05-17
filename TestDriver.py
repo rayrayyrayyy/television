@@ -9,10 +9,13 @@ def television_1():
     tv_1.set_volume(15)
     tv_1.open_tv()
     
-
 # define function for tv 2
 def television_2():
-    tv_1 = TV()
+    channel = int(input("TV 2's channel is: "))
+    tv_2 = TV()
+    tv_2.set_channel(channel)
+    tv_2.set_volume(25)
+    tv_2.open_tv()
 
 # import module
 from tkinter import *
