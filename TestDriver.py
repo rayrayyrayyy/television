@@ -7,6 +7,7 @@ def television_1():
     tv_1 = TV()
     tv_1.set_channel(channel)
     tv_1.set_volume(15)
+    tv_1.open_tv()
     
 
 # define function for tv 2
